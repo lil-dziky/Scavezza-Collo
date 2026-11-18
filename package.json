@@ -1,0 +1,9 @@
+{
+  "name": "scavezza-collo-online",
+  "version": "1.0.0",
+  "description": "Game + online relay server for Scavezza Collo (zero dependencies)",
+  "main": "server.js",
+  "scripts": { "start": "node server.js", "test": "node tests/run.js" },
+  "engines": { "node": ">=16" },
+  "license": "MIT"
+}

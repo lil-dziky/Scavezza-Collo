@@ -1,0 +1,9 @@
+# Render "Blueprint": New + > Blueprint > pick your repo. Free plan works (it sleeps when idle, see README).
+services:
+  - type: web
+    name: scavezza-collo
+    runtime: node
+    plan: free
+    buildCommand: echo "nothing to build"
+    startCommand: node server.js
+    healthCheckPath: /health
